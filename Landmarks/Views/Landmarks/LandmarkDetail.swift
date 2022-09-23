@@ -60,7 +60,6 @@ struct LandmarkDetail_Previews: PreviewProvider {
     
     static var previews: some View {
         LandmarkDetail(landmark: ModelData().landmarks[0])
-            .previewDevice(PreviewDevice(rawValue:"iPhone XS Max"))
             .environmentObject(modelData)
     }
 }

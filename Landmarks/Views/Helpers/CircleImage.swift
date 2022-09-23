@@ -23,6 +23,5 @@ struct CircleImage: View {
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
         CircleImage(image: Image("turtlerock"))
-            .previewDevice(PreviewDevice(rawValue:"iPhone XS Max"))
     }
 }
